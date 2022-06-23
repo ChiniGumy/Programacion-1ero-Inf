@@ -1,0 +1,59 @@
+
+En la constructora "El hierro" se paga $7 la hora de trabajo. Adicionalmente se le da $40 mensuales para almuerzo
+y $20 para transporte. Se les descuenta el IEES (9.35%) y se le paga el fondo de reserva (8.33%) mes a mes. Realice
+un programa que ingrese el nombre del trabajador y las horas trabajadas al mes. Calcule todos los beneficios
+y descuentos; finalmente presente el neto a recibir.
+
+
+
+Analisis
+
+    CONSTANTES
+
+        SUELDO_HORA = 7
+        ALMUERZO = 40
+        TRANSPORTE = 20
+        PORCENTAJE_IEES = 9.35%
+        PORCENTAJE_RESERVA = 8.33%
+
+    Ingreso
+
+        nombre_trabajador = $
+        horas_trabajadas = 0
+
+    Calculo
+
+        sueldo
+        descuento_iees
+        fondo_reserva
+        beneficios
+        sueldo_neto
+
+
+Analisis
+
+    Ingreso la constante SUELDO_HORA = 7
+    Ingreso la constante ALMUERZO = 40
+    Ingreso la constante TRANSPORTE = 20
+    Ingreso la constante PORCENTAJE_IEES = 9.35%
+    Ingreso la constante PORCENTAJE_RESERVA = 8.33%
+
+    Inicializo la variable nombre_trabajador
+    Inicializo la variable horas_trabajadas
+
+    Ingreso la variable nombre_trabajador
+    Ingreso la variable horas_trabajadas
+
+    Inicializo la variable sueldo
+    Inicializo la variable descuento_iees
+    Inicializo la variable fondo_reserva
+    Inicializo la variable beneficios
+    Inicializo la variable sueldo_neto
+
+    Calculo la variable sueldo = ( horas_trabajadas * SUELDO_HORA)
+    Calculo la variable descuento_iees = ( sueldo * PORCENTAJE_IEES ) / 100
+    Calculo la variable fondo_reseva = ( sueldo *  PORCENTAJE_RESERVA ) / 100
+    Calculo la variable beneficios = ALMUERZO + TRANSPORTE 
+    Calculo la variable sueldo_neto =  sueldo - descuento_iees + fondo + beneficios 
+
+    Presento la variable sueldo_neto

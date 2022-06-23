@@ -1,0 +1,43 @@
+
+La Empresa Eléctrica de Guayaquil CNEL, cobra ¢0,09 el KVh (Kilovatio hora) en las residencias de clase baja, 
+además cobra $2,00 por alumbrado eléctrico, $3,00 al cuerpo de bombero y el 2% del valor de la factura a SOLCA.
+Adicionalmente el gobierno subsidia $10,00 al valor de la factura.
+
+Realice un programa que ingrese el nombre del cliente, el domicilio y los KVH consumidos al mes,
+Calcule el valor mensual y el 2% de contribución a SOLCA, además agregar las demás contribuciones al alumbrado y cuerpo de bombero
+y el descuento del subsidio que da el gobierno.
+
+Presente el valor final a Pagar en la factura.
+
+
+
+INCIO
+
+Defino constate KVH_DOLAR = 0.09
+
+Defino constate CONTRIBUCION_ALUMBRADO = 2.00
+Defino constate CONTRIBUCION_BOMBEROS = 3.00
+Defino constate PORCENTAJE_SOLCA = 2
+Defino constate SUBSIDIO = 10.00
+
+Inicializar variable nombre_cliente = $
+Inicializar variable domicilio = $
+Inicializar variable KVh_consumidos_mes = 0
+
+Ingreso variable nombre_cliente
+Ingreso variable domicilio
+Ingreso variable KVh_consumidos_mes
+
+Inicializo variable valor_mensual = 0
+Inicializo variable contribuciones = 0
+Inicializo variable descuento_solca = 0
+Inicializo variable valor_mensual_total = 0
+
+calculo valor_mensual = KVH_dolar * KVh_consumidos_mes
+calculo contribucion_solca = ( valor_mensual * PORCENTAJE_SOLCA ) / 100
+calculo contribuciones = CONTRIBUCION_ALUMBRADO + CONTRIBUCION_BOMBEROS + contribucion_solca
+calculo valor_mensual_total = valor_mensual + contribuciones - SUBSIDIO
+
+presento valor_mensual_total
+
+FIN

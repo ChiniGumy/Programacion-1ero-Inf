@@ -1,0 +1,60 @@
+
+En una Institucion educativa se cancela a los docentes el sueldo basico, pero se le paga $40 dolares por autoria,
+$30 por transporte , $20 de desayuno, tambien se le paga fondo de reserva mensual, se le descuenta el IEES y el
+8% de un seguro medico.
+Relizar programa que permita ingresar el nombre del profesor o docente, el sueldo basico, calcule todos los beneficios
+y descuentos y presente el total a recibir
+
+
+Analisis
+
+    AUTORIA = $40
+    TRANSPORTE = $30 
+    DESAYUNO = $20
+    PORCENTAJE_IEES = 9.35
+    PORCENTAJE_RESERVA = 8.33
+    PORCENTAJE_SEGURO = 9.00
+
+    docente = $
+    sueldo = 0
+
+    beneficios = 0
+    fondo_reserva = 0
+    descuento_iees = 0
+    seguro_medico = 0
+    valor_total = 0
+    
+
+Algoritmo   
+
+    Inicializo la constate AUTORIA = $40
+    Inicializo la constate TRANSPORTE = $30 
+    Inicializo la constate DESAYUNO = $20
+    Inicializo la constate PORCENTAJE_IEES = 9.35
+    Inicializo la constate PORCENTAJE_RESERVA = 8.33
+    Inicializo la constate PORCENTAJE_SEGURO = 9.00
+     
+    Inicializo la variable docente
+    Inicializo la variable sueldo
+
+    Inicializo la variable beneficios
+    Inicializo la variable fondo_reserva
+    Inicializo la variable descuento_iees
+    Inicializo la variable seguro_medico    
+
+    Inicializo la variable valor_total
+
+    Ingreso la variable docente
+    Ingreso la variable sueldo
+
+    calculo la variable descuento_iees = ( sueldo * PORCENTAJE_IEES ) / 100
+
+    calculo la variable fondo_reserva = ( sueldo * PORCENTAJE_RESERVA ) / 100
+
+    calculo la variable seguro_medico = ( sueldo * PORCENTAJE_SEGURO) / 100
+
+    calculo beneficios = AUTORIA + TRANSPORTE + DESAYUNO
+
+    calculo valor_total = sueldo - descuento_iees + reserva - seguro_medico + beneficios
+
+    presento la variable valor_total

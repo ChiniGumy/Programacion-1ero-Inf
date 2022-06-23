@@ -1,0 +1,61 @@
+
+
+TAREA
+En un colegio x se obtiene la nota del parcial de la siguiente forma. 
+El cuaderno es el 20%, la lección es el 30%, la actuación de clase el 15% 
+y las tareas el 35%. Realice un algoritmo que ingrese el nombre del alumno, 
+la asignatura, la nota del cuaderno, la nota de la lección, la nota de la 
+actuación en clase y la nota de las tareas. Calcule la nota total del estudiante 
+sacando el porcentaje respectivo y sumando todos los porcentajes, 
+finalmente presente la nota final obtenida.
+
+
+Analisis
+
+    nombre_alumno
+    nombre_asignatura
+
+    nota_actuacion
+    nota_cuaderno
+    nota_tarea
+    nota_total
+
+    porcentaje_cuaderno = 0.2
+    porcentaje_leccion = 0.3
+    porcentaje_actuacion = 0.15
+    porcentaje_tarea = 0.35
+
+
+
+Algoritmo
+
+    1.- Inicio
+
+    Inicializar la constante porcentaje_cuaderno = 0.2                                                                         
+    Inicializar la constante porcentaje_leccion = 0.3
+    Inicializar la constate porcentaje_actuacion = 0.15
+    Inicializar la constante porcentaje_tarea = 0.35   
+
+
+    Inicializar la variable nombre_alumno
+    Inicializar la variable nombre_asignatura
+
+    Inicializar la variable nota_cuaderno
+    Inicializar la variable nota_leccion
+    Inicializar la variable nota_actuacion
+    Inicializar la variable nota_total
+
+    Ingreso la variable nombre_alumno
+    Ingreso la variable nombre_asignatura
+
+    Ingreso la variable nota_cuaderno
+    Ingreso la variable nota_leccion
+    Ingreso la variable nota_actuacion
+    Ingreso la variable nota_total
+
+
+    calculo nota_total = ( nota_cuaderno * porcentaje_cuaderno ) + ( nota_leccion * porcentaje_leccion) + ( nota_actuacion + porcentaje actuacion) + ( nota_tarea + porcentaje_tarea)
+    presento resultado nota_total
+
+
+

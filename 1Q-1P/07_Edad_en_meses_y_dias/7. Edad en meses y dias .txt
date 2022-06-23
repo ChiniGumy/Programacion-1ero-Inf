@@ -1,0 +1,19 @@
+
+
+Realice un programa que ingrese la edad en años de una persona y transforme en meses y dias. presente el resultado
+
+
+1.- Inicio
+2.- Inicializo variable e_anos
+3.- Inicializo variable e_meses
+4.- Inicializo variable e_dias
+
+5.- Ingreso la variable e_anos
+
+6.- Calculo e_meses = e_anos * 12
+7.- Calculo e_dias = e_anos * 365
+
+8.- Presento e_meses
+9.- Presento e_dias
+
+10.- Fin

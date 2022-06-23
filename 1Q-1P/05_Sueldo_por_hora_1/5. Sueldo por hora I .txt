@@ -1,0 +1,28 @@
+
+REALIZAR UN PROGRAMA QUE INGRESE EL NOMBRE DEL TRABAJADOR, EL CARGO, EL SUELDO POR HORAS Y LAS HORAS TRABAJADAS. 
+CALCULE Y VIZUALICE EL SUELDO, EL DESCUENTO AL IESS(9.35) Y EL TOTAL A RECIBIR.
+
+
+Defino constante PORCENTAJE_IESS = 9.35
+
+Inicializo variable nombre = $
+Inicializo variable cargo = $
+Inicializo variable sueldo_por_hora = 0
+Inicializo variable horas_trabajadas = 0
+
+Inicializo sueldo
+Inicializo descuento_iees
+Inicializo total_recibir
+
+Ingreso variable nombre = $
+Ingreso variable cargo = $
+Ingreso variable sueldo_por_hora = 0
+Ingreso variable horas_trabajadas = 0
+
+calculo sueldo = sueldo_por_hora * horas_trabajadas
+calculo descuento_iess = ( sueldo * PORCENTAJE_IESS) / 100
+calculo total_recibir = sueldo - descuento_iess
+
+Presento sueldo
+Presento descuento_iees
+Presento total_recibir

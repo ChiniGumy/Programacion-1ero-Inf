@@ -1,0 +1,65 @@
+
+
+EJERCICIO DE RECUPERACIÓN Y DE CLASE
+En un curso x, se desea obtener el porcentaje de cada una de los candidatos para presidente del
+curso en la cual participaron 4 candidatos y sabiendo que en el curso hay un total de 28 alumnos.
+Realice un algoritmo que ingrese el curso, el nombre del 1er candidato, el nombre del 2docandidato,
+el nombre del 3er candidato y del 4to candidato, también el número de votos del 1er candidato, 
+el número de votos del 2do candidato, el número de votos del 3er candidato,el número de votos
+del 4to candidato;calcule el porcentaje que obtuvo cada uno de los candidatos y presente el
+porcentaje obtenido por cada uno de ellos.
+
+
+Analisis
+
+    constate total_alumnos = 28
+
+    candidato_uno
+    candidato_dos
+    candidato_tres
+    candidato_cuatro
+
+    votos_candidato_uno
+    votos_candidato_dos
+    votos_candidato_tres
+    votos_candidato_cuatro
+
+    porcentaje_candidato_uno
+    porcentaje_candidato_dos
+    porcentaje_candidato_tres
+    porcentaje_candidato_cuatro
+
+
+
+Algoritmo
+
+    1.- Inicio
+
+    2.- Defino la constante num_estudiantes
+
+    3.- Ingreso la variable candidato_uno
+    4.- Ingreso la variable candidato_dos
+    5.- Ingreso la variable candidato_tres
+    6.- Ingreso la variable candidato_cuatro
+
+    7.-Ingreso la variable votos_candidato_uno
+    8.-Ingreso la variable votos_candidato_dos
+    9.-Ingreso la variable votos_candidato_tres
+   10.-Ingreso la variable votos_candidato_cuatro
+
+    11.-Ingresar variable porcentaje_candidato_uno
+    12.-Ingresar variable porcentaje_candidato_dos
+    13.-Ingresar variable porcentaje_candidato_tres
+    14.-Ingresar variable porcentaje_candidato_cuatro
+
+    15.-Calculo porcentaje_candidato_uno = (votos_candidato_uno * 100) / total_alumnos
+    16.-Calculo porcentaje_candidato_dos = (votos_candidato_dos * 100) / total_alumnos
+    17.-Calculo porcentaje_candidato_dos = (votos_candidato_tres * 100) / total_alumnos
+    18.-Calculo porcentaje_candidato_dos = (votos_candidato_cuatro * 100) / total_alumnos
+
+    19.-Presento resultado de porcentaje_candidato_uno
+    20.-Presento resultado de porcentaje_candidato_dos
+    21.-Presento resultado de porcentaje_candidato_tres
+    22.-Presento resultado de porcentaje_candidato_cuatro
+
+
